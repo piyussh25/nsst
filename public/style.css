@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px; /* Add some padding to the body */
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Limit container width */
+    width: 100%;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 1rem;
+    /* Remove border-top and padding-top as content will be styled */
+}
+
+.battery-icon {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.event-card {
+    background-color: #ffffff; /* White background for cards */
+    padding: 1.5rem;
+    border-radius: 0.5rem; /* Rounded corners */
+    border: 1px solid #e2e8f0; /* Light border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.2s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.event-card:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
