@@ -7,6 +7,10 @@
   ],
   "routes": [
     {
+      "src": "/",
+      "dest": "/public/index.html"
+    },
+    {
       "src": "/api/get-attendance",
       "dest": "/api/index.js"
     },
